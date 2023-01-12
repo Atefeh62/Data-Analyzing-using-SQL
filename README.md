@@ -12,3 +12,6 @@ https://console.cloud.google.com/bigquery?sq=250354816806:2fcb268c146d40fb84d716
 
 4. in the following link I have a data set about the county states in US, I used WHERE claus for filtering and ORDER BY claus for sorting he desired data:
 https://console.cloud.google.com/bigquery?p=bigquery-public-data&d=sdoh_cdc_wonder_natality&page=dataset&project=sorting-374409&ws=!1m9!1m4!1m3!1ssorting-374409!2sbquxjob_61592bd2_185a135a251!3sUS!1m3!3m2!1sbigquery-public-data!2ssdoh_cdc_wonder_natality
+
+5. in the link below I have a data set about the climate in different states of US, there is some missing values filled with some spacific numbers like 999.99 e.t.c, and a float type of data saved as string, for these cases I used IF function to fill the wrong numbers(999.99) with NULL, and CAST function to correct the data type. also we needed data from 2 specific states, so I filtered desierd data with WHERE claus and ordered it by DESCENDING date order ans ASCENDING State number(stn):
+https://console.cloud.google.com/bigquery(cameo:browse)?project=sorting-374409&ws=!1m10!1m4!4m3!1sbigquery-public-data!2snoaa_gsod!3sgsod2020!1m4!1m3!1ssorting-374409!2sbquxjob_2a7c478_185a53cce22!3sUS
