@@ -24,3 +24,10 @@ https://console.cloud.google.com/bigquery?p=bigquery-public-data&d=world_bank_in
 
 8. In the link bellow also I joined two tables, and the same time used ALIAS name to make my code easier to read:
 https://console.cloud.google.com/bigquery?p=bigquery-public-data&d=world_bank_intl_education&page=dataset&project=sqlmergingpractice&ws=!1m10!1m4!4m3!1sbigquery-public-data!2sworld_bank_intl_education!3scountry_summary!1m4!1m3!1ssqlmergingpractice!2sbquxjob_509f04c7_185ed624df5!3sUS
+
+9. In the link bellow I used SUBQUERY for the first time, I joined two tables, and used Aliasing:(I have 2 datasets about warehouses and the orders from these warehouses, I want to find the total number of orders(the subquery) and also wich warehouse has the most orders:)
+https://console.cloud.google.com/bigquery?project=sqlmergingpractice&ws=!1m19!1m3!8m2!1s631315928547!2se52eb558c2c94c219c6f1ab67215c0ab!1m4!4m3!1ssqlmergingpractice!2swarehouse_order!3swarehouse!1m4!4m3!1ssqlmergingpractice!2swarehouse_order!3sorders!1m4!1m3!1ssqlmergingpractice!2sbquxjob_66a526df_1860d4068b9!3sEU
+
+
+
+
